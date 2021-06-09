@@ -1,0 +1,128 @@
+Modulos/vistas que creo que debe tener la aplicación.
+1.- Inicio (para selecionar quienes van a manipular el sistema ADMINISTRADOR, MESERO, USUARIO, COCINERO).
+	El USUARIO, ni el CODINERO manipula la APP, pero lo agregue para mostrar el menú, aunque esta vista se puede agregar en un botón del MESERO y ADMINISTRADOR.
+2.- Login (La parte de arriba puede que nos la brinquemos y que salga directamente el login). Pero debemos de programar esto, para que, con base al USERNAME y
+  el PASSWORD identifique que es, si ADMIN O MESERO.
+
+**************************************************IMPORTANTE**************************************************
+Sí agregamos el LOGIN, al momento de crear una ORDEN, esta debe de idenrificar automaticamente que MESERO ATIENDE.
+--------------------------------------------------------------------------------------------------------------------------------------
+USUARIO 
+1.- Puede consultar el menú.
+2.- Puede consultar su ticket.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+ADMIN:
+1.- Puede agregar NUEVO ADMINISTRADOR (+ alert de "Agregado Exitosamente). Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla.
+2.- Puede agregar NUEVO MESERO (+ alert de "Agregado Exitosamente"). Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla.
+3.- Puede agregar NUEVA MESA (+ alert de "AgregadoExitosamente"). Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla.
+4.- Puede agregar NUEVO PRODUCTO (+ alert de "AgregadoExitosamente"). Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla.
+5.- Puede agregar NUEVA CATEGORIA DE PRODUCTO (+ alert de "AgregadoExitosamente"). Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla.
+6.- Puede agregar NUEVA DIRECCIÓN (+ alert de "AgregadoExitosamente"). Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla.
+
+
+
+7.- Puede eliminar ADMINISTRADOR. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+8.- Puede eliminar MESERO. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+9.- Puede eliminar MESA. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+10.- Puede eliminar PRODUCTO. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+11.- Puede eliminar CATEGORIA DE PRODUCTO. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+12.- Puede eliminar DETALLES ÓRDEN de una ÓRDEN ESPECIFICA. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+13.- Puede eliminar ÓRDEN. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+14.- Puede eliminar DIRECCIÓN. Este MODULO lo podemos agregar como un botón de los que nos esta enseñando el profe, 
+	pero con una consulta donde muestre primero todos los datos de dicha tabla y para que posteriormente refresque dichos datos y se muestren.
+
+15.- Puede consultar todos los datos de la tabla ADMINISTRADOR. Esto se puede implementar como anteriormente lo hemos mencionado.
+16.- Puede consultar todos los datos de la tabla MESERO. Esto se puede implementar como anteriormente lo hemos mencionado.
+17.- Puede consultar todos los datos de la tabla MESA. Esto se puede implementar como anteriormente lo hemos mencionado.
+18.- Puede consultar todos los datos de la tabla PRODUCTO. Esto se puede implementar como anteriormente lo hemos mencionado.
+19.- Puede consultar todos los datos de la tabla CATEGORIA DE PRODUCTO. Esto se puede implementar como anteriormente lo hemos mencionado.
+20.- Puede consultar todos los datos de la tabla ÓRDEN. Esto se puede implementar como anteriormente lo hemos mencionado.
+21.- Puede consultar todos los datos de la tabla DETALLES ÓRDEN. Esto se puede implementar como anteriormente lo hemos mencionado.
+22.- Puede consultar todos los datos de la tabla DIRECCIÓN. Esto se puede implementar como anteriormente lo hemos mencionado.
+
+*************************************************************************
+23.- Puede consultar ÓRDENES por MESERO para una fecha especifica.	*
+24.- Puede consultar ÓRDENES por MESA para una fecha especifica.	*
+25.- Puede consultar ÓRDENES por fecha.					*
+*************************************************************************
+26.- Puede consultar una ÓRDEN especifica con el ID_ORDEN.
+
+27.- Puede consultar DETALLES DE ÓRDEN por ÓRDEN espeficia con el ID_ORDEN.
+28.- Puede consultar DETALLES DE ÓRDEN de TODAS LAS ORDENES para fecha especifica.
+29.- Puede consultar DETALLES ORDEN especifica con el ID_ORDEN.
+*************************************************************************
+30.- El total de ventas para una fecha.					*
+*************************************************************************
+
+31.- El total de ventas de toda la vida.
+32.- Puede editar datos de la tabla ADMINISTRADOR. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+33.- Puede editar datos de la tabla  MESERO. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+34.- Puede editar datos de la tabla  MESA. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+35.- Puede editar datos de la tabla  PRODUCTO. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+36.- Puede editar datos de la tabla  CATEGORIA DE PRODUCTO. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+37.- Puede editar datos de la tabla  ÓRDEN. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+38.- Puede editar datos de la tabla  DETALLES ÓRDEN. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+39.- Puede editar datos de la tabla  DIRECCIÓN. Tal vez lo podamos implentar en un modulo de consulta general, como AGREGAR.
+--------------------------------------------------------------------------------------------------------------------------------------
+
+MESERO:
+
+1.- Puede agregar NUEVA ORDEN (se abre ÓRDEN).
+2.- Puede agregar PORDUCTOS a dicha ÖRDEN. (IMPORTANTE: mostrar que orden es en un RECUADRO GRANDE, además del nombre del MESERO).
+
+3.- Puede editar PRODUCTOS de la ÓRDEN.
+
+4.- Puede eliminar PROCUTOS de la ÓRDEN.
+5.- Si el MESERO quiere eliminar una ORDEN completa, debe acudir con el ADMIN.
+
+6.- Puede consultar el menú, tabla PRODUCTOS.
+7.- Puede consultar el TOTAL DE CUENTA de cierta ORDEN. (Desde afuera), y también desde ÓRDEN (después de CERRAR ÓRDEN).
+8.- El mesero puede estar realizando varias ÓRDENES, es por eso que debemos manejar lo ORDEN ABIERTA, ORDEN CERRADA.
+9.- Debido al punto 8 de este apartado, el MESERO debe poder consultar que todas las ÓRDENES que ha hecho en su vida.
+10.- Debido al punto 8 de este apartado, el MESERO debe poder consultar que todas las ÓRDENES que ha hecho en una fecha especifia.
+11.- Debido al punto 8 de este apartado, el MESERO debe poder consultar que todas las ÓRDENES que tiene abiertas todavía.
+12.- Debido al punto 8 de este apartado, el MESERO debe poder consultar una ÓRDEN especifica con el ID_ORDEN (QUE LA ESTE ATENIENDO O HAYA ATENDIDO EL).
+--------------------------------------------------------------------------------------------------------------------------------------
+ VISTA COCINA:
+1.- El COCINERO puede CONSULTAR todas las ÓRDENES junto con los datos correspondientes de DETALLES_ORDEN (inner join/left/rigth) que tienen un estado "ABIERTO" de todos los MESEROS y acomodar por ORDEN_ID.
+	IMPORTANTE: solo consultar aquellos que tienen un de_entregado= 'NO'
+
+Incluir un ALERTA si se agrega una NUEVA ORDEN o un NUEVO PRODUCTO.
+
+AGREGAR TICKET.
+
+1.- El que hizo YOKO.
+2.- CONSULTAR EL TOTAL
+
+2.- COMO CALCULAR EL TOTAL.
+3.- COMO CALCULAR EL SUBTOTAL.
+**************************************************************************************************************************************
+
+
+
+**************************************************************************************************************************************
+
+La aplicación debe poder hacer operaciones CRUD a través de la interfaz de usuario que sean necesarias para el funcionamiento del sistema, especialmente el de órdenes.
+
+Adicionalmente, con el sistema debe ser posible realizar al menos las siguientes consultas
+con el sistema para las órdenes:
+a. Órdenes por mesero para una fecha
+b. Órdenes por mesa para una fecha
+c. Órdenes por fecha
+d. El total de ventas para una fecha
+Incluir otras consultas que se consideren relevantes.
+**************************************************************************************************************************************
