@@ -67,7 +67,7 @@ export default {
 
             nl_dialog: false,
 
-            nuevo_administrador:{
+            nuevo_administrador: {
             adm_usuario: '',
             adm_contrasena: '',
             }

@@ -113,7 +113,7 @@ SELECT *
 	FROM mesa; 
     
 #18.- Puede consultar todos los datos de la tabla PRODUCTO.
-SELECT producto_menu.prod_nombre, categoria_producto.cat_tipo_producto, categoria_producto.cat_descripcion, producto_menu.prod_costo_unit
+SELECT producto_menu.prod_id, producto_menu.prod_nombre, categoria_producto.cat_tipo_producto, categoria_producto.cat_descripcion, producto_menu.prod_costo_unit
 	FROM producto_menu
     INNER JOIN categoria_producto
 		ON categoria_producto.cat_id = producto_menu.prod_cat_id

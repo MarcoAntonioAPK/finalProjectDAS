@@ -33,6 +33,7 @@ app.get('/hola', function(req, res){
 });*/
 
 app.use('/administradores', require('./routes/administrador'));
+app.use('/productos', require('./routes/producto_menu'));
 
 //Decirle a nuestra API en qué pueto correr (escuchar)
 app.listen(3000, function(){

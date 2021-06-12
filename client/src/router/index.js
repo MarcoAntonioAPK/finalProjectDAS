@@ -15,6 +15,11 @@ const routes = [
     name: 'Administradores',
     component: () => import('../views/Administrador.vue')
   },
+  {
+    path: '/productos',
+    name: 'Productos',
+    component: () => import('../views/Producto_menu.vue')
+  },
 ]
 
 const router = new VueRouter({
