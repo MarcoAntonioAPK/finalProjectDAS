@@ -14,7 +14,7 @@
       </v-btn>
 
       <v-btn color="primary" elevation="15" large x-large x-small rounded height="75">   
-        <router-link to ='/' id="ir">
+        <router-link to ='menu' id="ir">
           Menú
         </router-link>
       </v-btn>
