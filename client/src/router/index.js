@@ -20,6 +20,26 @@ const routes = [
     name: 'Menu',
     component: () => import('../views/Menu.vue')
   },
+  {
+    path: '/productos',
+    name: 'Productos',
+    component: () => import('../views/Producto_menu.vue')
+  },
+  {
+    path: '/meseros',
+    name: 'Meseros',
+    component: () => import('../views/Meseros.vue')
+  },
+  { 
+    path: '/categorias',
+    name: 'Categorias', 
+    component: () => import('../views/Categorias.vue')
+  },
+  { 
+    path: '/mesas',
+    name: 'Mesas',
+    component: () => import('../views/Mesas.vue')
+  }
 ]
 
 const router = new VueRouter({

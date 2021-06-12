@@ -87,7 +87,7 @@ export default {
 
         async eliminar_administrador(item){
             const body = {
-            usu_id: item.adm_id
+                adm_id: item.adm_id
             };
             const data= await this.axios.post('/administradores/eliminar_administrador', body);
 
