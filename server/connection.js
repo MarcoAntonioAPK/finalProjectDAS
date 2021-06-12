@@ -4,8 +4,10 @@ const { promisify } = require('util');
 // Configurar la conexión a la base de datos.
 const connection = mysql.createPool({
     host: 'localhost',
-    user: 'root',
-    password: 'root',
+    //user: 'root',
+    user: 'test',
+    //password: 'root',
+    password: 'Elemento115',
     database: 'restaurante_db'
 });
 
