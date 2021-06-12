@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/menu', require('./routes/menu'));
+
 //Esto debe de ir después de todo el middleware'
 
 
@@ -34,6 +34,11 @@ app.get('/hola', function(req, res){
 });*/
 
 app.use('/administradores', require('./routes/administrador'));
+app.use('/menu', require('./routes/menu'));
+app.use('/productos', require('./routes/producto_menu'));
+app.use('/meseros', require('./routes/mesero'));
+app.use('/categoria', require('./routes/categoria'));
+app.use('/mesas', require('./routes/mesa'));
 
 //Decirle a nuestra API en qué pueto correr (escuchar)
 app.listen(3000, function(){
