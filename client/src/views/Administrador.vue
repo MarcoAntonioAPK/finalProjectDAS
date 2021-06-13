@@ -39,10 +39,9 @@
                 </v-card-text>
 
                 <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn color= 'success' @click= "guardar()"> Guardar</v-btn>
-                <v-btn color= 'error' @click= "cancelar()">Cancelar</v-btn>
-                <v-spacer></v-spacer>
+                    <v-spacer></v-spacer>
+                    <v-btn color= 'success' @click= "guardar()"> Guardar</v-btn>
+                    <v-btn color= 'error' @click= "cancelar()">Cancelar</v-btn>
                 </v-card-actions>
             </v-card>
         </v-dialog>
@@ -68,8 +67,8 @@ export default {
             nl_dialog: false,
 
             nuevo_administrador:{
-            adm_usuario: '',
-            adm_contrasena: '',
+                adm_usuario: '',
+                adm_contrasena: '',
             }
 
         }
@@ -83,7 +82,7 @@ export default {
         async llenar_administradores(){
             const api_data = await this.axios.get('/administradores/todos_los_administradores');
             this.administradores = api_data.data;
-      },
+        },
 
         async eliminar_administrador(item){
             const body = {
@@ -100,7 +99,7 @@ export default {
         },
 
         async guardar(){
-            await this.axios.post('/administradores/nuevo_administrador/', this.nuevo_administrador);
+            await this.axios.post('/administradores/nuevo_administrador', this.nuevo_administrador);
             this.llenar_administradores();
             this.cancelar();
         },

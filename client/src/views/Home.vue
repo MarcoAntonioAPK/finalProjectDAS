@@ -1,29 +1,28 @@
 <template  >
   <v-container fill-height fluid>
     <v-row align="center" justify="space-around" class="mt-50">
-      <v-btn color="primary" elevation="15" large x-large x-small rounded height="75" >   
-        <router-link to ='/' id="ir">
+      <router-link to ='login_administrador' id="ir">
+        <v-btn color="secondary" elevation="15" large x-large x-small rounded height="75"   id="ir">   
           Administrador
-        </router-link>
-      </v-btn>
-
-      <v-btn color="primary" elevation="15" large x-large x-small rounded height="75">   
-        <router-link to ='/' id="ir">
+        
+        </v-btn>
+      </router-link>
+      <router-link to ='/login_mesero' id="ir">
+        <v-btn color="secondary" elevation="15" large x-large x-small rounded height="75"  id="ir">   
           Mesero
-        </router-link>
-      </v-btn>
-
-      <v-btn color="primary" elevation="15" large x-large x-small rounded height="75">   
-        <router-link to ='menu' id="ir">
+        </v-btn>
+      </router-link>
+      <router-link to ='menu'>
+        <v-btn color="secondary" elevation="15" large x-large x-small rounded height="75"  id="ir">   
           Menú
-        </router-link>
-      </v-btn>
+        </v-btn>
+      </router-link>
 
-      <v-btn color="primary" elevation="15" large x-large x-small rounded height="75">   
-        <router-link to ='/' id="ir">
+      <router-link to ='cocina'>
+        <v-btn color="secondary" elevation="15" large x-large x-small rounded height="75" id="ir">   
           Vista Cocina
-        </router-link>
-      </v-btn>
+        </v-btn>
+      </router-link>
     </v-row>
   </v-container>
 </template>

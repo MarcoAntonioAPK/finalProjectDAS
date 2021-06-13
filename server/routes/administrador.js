@@ -23,7 +23,6 @@ router.post('/eliminar_administrador', async(req, res) => { // POST --> Vamos a 
         const adm_id = req.body.adm_id;
         const query = 'DELETE FROM administrador WHERE adm_id = ?';
         const result= await connection.query(query, [adm_id]);
-        // connection.query(query);
 
         res.json('ok');
 

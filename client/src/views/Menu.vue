@@ -1,5 +1,5 @@
 <template>
-    <v-conatainer>
+    <v-container>
         <v-data-table
             :headers="encabezados"
             :items="menu"
@@ -7,12 +7,12 @@
         >
         <template v-slot:top>
         <v-toolbar flat>
-          <v-tooltitle>Menú</v-tooltitle>
+          <v-toolbar-title>Menú</v-toolbar-title>
           <v-spacer></v-spacer>
         </v-toolbar>
         </template>
         </v-data-table>
-    </v-conatainer>
+    </v-container>
 </template>
 
 
