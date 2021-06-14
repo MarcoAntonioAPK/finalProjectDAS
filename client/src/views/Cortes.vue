@@ -6,7 +6,7 @@
                     El Total de Venta es:
                 </v-card-title>
                 <v-card-text >
-                  {{cortes}}
+                  {{ cortes }}
                 </v-card-text>
         </v-card>
         </v-row>
@@ -20,8 +20,8 @@
         data() {
           return{
             
-
-            cortes:[],
+            R: 'Ejemplo',
+            cortes: ' ',
                 
           }
          

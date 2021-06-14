@@ -155,7 +155,10 @@ INSERT INTO administrador(adm_usuario,adm_contrasena)
 		  ('JOS105', 'R4172'),
           ('MAR105', 'R4173'),
           ('BRE105', 'R4174'),
-          ('GEN105', 'R4175');
+          ('GEN105', 'R4175'),
+          ('YOS105', 'R4176'),
+          ('PAB105', 'R4177'),
+          ('GIM105', 'R4178');
           
 #2.- Inserción de datos en la tabla de mesa
 INSERT INTO mesa(mesa_capacidad_personas, mesa_area, mesa_descripcion)
@@ -192,11 +195,14 @@ mesero_fecha_nacimiento, mesero_fecha_contrato, mesero_genero, mesero_tel_propio
 	VALUES('FER12', '1213L', 'Fernando', 'Meza', 'Torres', '1997-04-19', '2020-03-30', 'H', '4772514351', '4771056325', 'Calle 5 de marzo #13, zona centro, Salamanca', 'Si'),
 		  ('MAR55', 'M56HT', 'Maria', 'Fernandez', 'Oliva', '1998-11-04', '2019-04-15', 'M', '4771428936', '4771104857', 'Calle Morelos  #25, col Bellavista, Salamanca', 'Si'),
           ('EST78', '78ES3', 'Esteban', 'Canales', 'Juarez', '1999-05-24', '2020-11-01', 'H', '4742837141', '4741416320', 'Calle Auza #4, zona centro, Irapuato', 'Si'),
+          ('YOS105', 'Y341L', 'Yose', 'Lopez', 'Oliva', '1999-08-24', '2020-11-01', 'M', '4112612052', '4721056674', 'Flamarion #207, co. del valle', 'Si'),
           ('JUL98', '11J36', 'Julian', 'Bernal', 'Perez', '1996-01-21', '2019-04-15', 'H', '4778747125', '4771057496', 'Calle Romita #10, col San Francisco, Salamanca', 'No'),
+          ('PAB105', 'P412N', 'Pablo', 'Meza', 'Torres', '1999-08-31', '2019-04-15', 'H', '3526103952', '4117501229', 'Calle Caña #95, col Pino, Salamanca', 'Si'),
           ('GRA33', 'G1236L', 'Graciela', 'Vasquez', 'Montes', '1999-06-18', '2021-01-01', 'M', '4728514341', '4721078935', 'Calle 16 de septiembre #2, col Humanista, Salamanca', 'Si'),
           ('JOS12', '87J34', 'Jose', 'Ornelas', 'Olguin', '1999-08-24', '2020-03-30', 'H', '4742314319', '4721026775', 'Calle Candido Navarro #48, zona centro, Salamanca', 'Si'),
           ('N421R', 'N31024', 'Nandi', 'Canales', 'Hernandez', '1998-02-05', '2019-11-15', 'M', '4771014388', '4771140204', 'Calle Juarez #69, col Villa Petrolera, Salamanca', 'Si'),
           ('RO524', 'R36C1', 'Roberto', 'Lopez', 'Navarro', '1994-10-22', '2018-12-01', 'H', '4722511592', '4721010809', 'Calle Oliva #255, zona centro, Salamanca', 'No'),
+          ('GIM105', 'F152G', 'Gimena', 'Ornelas', 'Juarez', '1997-03-02', '2018-12-01', 'M', '9214950125', '4112958290', 'Calle Capa #75, col Santa, Salamanca', 'Si'),          
           ('CR097', 'CR1B3', 'Cristina', 'Velazquez', 'Sanchez', '1999-08-31', '2019-06-30', 'M', '4322514357', '4321056147', 'Calle Condesa #104, zona centro, Irapuato', 'Si'),
           ('FEC48', 'F154E', 'Fernanda', 'Serna', 'Hurtado', '1998-05-03', '2020-01-01', 'M', '4742514858', '4721056674', 'Calle Carranza #75, col Pirul, Salamanca', 'Si');
 

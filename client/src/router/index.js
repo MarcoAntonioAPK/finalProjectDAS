@@ -91,6 +91,17 @@ const routes = [
     name: 'Detalles_orden', 
     component: () => import('../views/Detalles_orden.vue') 
   },
+  { 
+    path: '/ticket',
+    name: 'Ticket', 
+    component: () => import('../views/Orden_ticket.vue') 
+  },
+  { 
+    path: '/ordenes_de_vida',
+    name: 'Ordenes_de_vida', 
+    component: () => import('../views/Ordenes_de_vida.vue') 
+  },
+
 ]
 
 const router = new VueRouter({

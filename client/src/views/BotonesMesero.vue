@@ -1,7 +1,7 @@
 <template  >
   <v-container fill-height fluid>
     <v-row align="center" justify="space-around" class="mt-50">
-      <router-link to ='nueva_ordens'>
+      <router-link to ='nueva_orden'>
         <v-btn color="secondary" elevation="15" large x-large x-small rounded height="75" id="ir">   
           Nueva Orden
         </v-btn>

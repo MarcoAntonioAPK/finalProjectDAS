@@ -5,7 +5,7 @@ const connection = require('../connection');
 
 router.get('/total_de_corte/', async(req,res) => { //Funcion asincrona
 try{
-    const query = ' SELECT SUM(ord_total_cuenta) AS Total '+
+    const query = ' SELECT SUM(ord_total_cuenta) AS \' $\' '+
     ' FROM orden ';
 
                    

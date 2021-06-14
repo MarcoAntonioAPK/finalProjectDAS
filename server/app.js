@@ -44,6 +44,10 @@ app.use('/ordenes', require('./routes/ordenes'));
 app.use('/ventas', require('./routes/venta'));
 app.use('/cortes', require('./routes/corte'));
 app.use('/detalles_orden', require('./routes/detalles_orden'));
+app.use('/ticket', require('./routes/orden_ticket'));
+app.use('/ordenes_de_vida', require('./routes/ordenes_de_vida'));
+
+
 
 
 

@@ -33,7 +33,7 @@
         </v-container>
       </v-card-text>
         <v-card-actions>
-          <v-btn color='success' @click="eliminar_detalles_orden()">eliminar</v-btn>
+          <v-btn color='success' @click="eliminar_detalles_orden()">Eliminar</v-btn>
         <v-spacer></v-spacer>
           <v-btn color='error' @click="cancelar()">Cancelar</v-btn>
         </v-card-actions>

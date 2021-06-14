@@ -4,13 +4,25 @@
             :headers="encabezados"
             :items="menu"
             :items-per-page="7"
+            :search="search"
+            class="elevation-1"
         >
-        <template v-slot:top>
-        <v-toolbar flat>
-          <v-toolbar-title>Menú</v-toolbar-title>
-          <v-spacer></v-spacer>
-        </v-toolbar>
-        </template>
+            <template v-slot:top>
+            <v-toolbar flat>
+            <v-toolbar-title>
+                Menú
+                <v-spacer></v-spacer>
+                <v-text-field
+                    v-model="search"
+                    append-icon="fas fa-search"
+                    label="Buscar en la tabla"
+                    single-line
+                    hide-details
+                >
+                </v-text-field>
+            </v-toolbar-title>
+            </v-toolbar>
+            </template>
         </v-data-table>
     </v-container>
 </template>
@@ -22,6 +34,8 @@ export default {
 
     data() {
         return {
+            search: '',
+            tab: null, 
             encabezados:[
                 {
                     text: 'Identificador',
